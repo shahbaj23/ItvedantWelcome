@@ -1,6 +1,6 @@
 // src/context/userLink/userLinkContext.jsx
 import { adminLink, guestLink, loggedLink } from "../../RouteInfo";
-import { UserLinkContext } from "./userLinkContext";
+import { UserLinkContext } from "./UserLinkContext";
 
 export const UserLinkProvider = ({ children }) => {
   const getLinkDetails = (role = "guest") => {
