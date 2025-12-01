@@ -1,7 +1,7 @@
 import React, { useContext, useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import { UserContext } from "../context/userContext";
-import { UserLinkContext } from "../context/userLink/userLinkContext";
+import { UserContext } from "../context/UserContext";
+import { UserLinkContext } from "../context/userLink/UserLinkContext";
 import { FiMenu, FiX } from "react-icons/fi";
 
 function Navbar() {
